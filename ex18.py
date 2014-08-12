@@ -9,6 +9,10 @@ def print_everything(*args):
 def table_things(**kwargs):
 	print type(kwargs)
 	print kwargs
+	print kwargs.keys()
+	print kwargs.values()
+	print kwargs.items()
+	print kwargs.iteritems()
  	for name, value in \
  	    kwargs.items():
          print "{0} = {1}".format(name, value)
@@ -33,7 +37,7 @@ print type(b)
 print type(c)
 del b[2]
 b.append(6)
-c["xiexie":24]
-print type(c.has('xiepeng'))
+c["xiexie"] = 24
+print type(c.has_key('xiepeng'))
 print c.values()
 
