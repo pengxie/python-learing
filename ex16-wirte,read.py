@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 from sys import argv
 script, filename = argv
-
 print "We're going to erase %r" % filename
 print "If you don't want that, hit CTRL-C (^C)."
 print "If you do want that, hit RETUN."
@@ -26,15 +25,16 @@ target.write("Benjing")
 target.write("\n")
 
 
-print "And finally, we clonse it."
+print "And finally, we close it."
 
 target.close() # 关闭文本
 
 file1 = open(filename)
-for i in file1.read():
- print i
-
+for i in file1.readlines():
+ print i,
 print "aaaaaaaaaaaaaaaaaaaaaaaaa"
+file1.seek(0)
 line = file1.readline(2)
+print line
 print "a:%s" % line
 file1.close()

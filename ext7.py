@@ -1,4 +1,5 @@
 #/bin/env python
+# -*- coding: utf8 -*-
 print "Mary had a little labm."
 print "Its fleece was white as %s." % 'snow'
 print "And enerywhere that Mary went."

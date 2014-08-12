@@ -15,7 +15,7 @@ print backslash_cat
 print fat_cat
 
 print "xie\apeng"
-print "abc\rde" # \r is a return,anwser: dec
+print "abcdef\rde" # \r is a return,anwser: dec
 print "=" * 10
 print "xie\fpeng" #\f fen ye fu
 a = 0

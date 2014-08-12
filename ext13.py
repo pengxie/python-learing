@@ -1,6 +1,8 @@
+# -*- coding: utf8 -*-
 from sys import argv
 scripts, first, second,third = argv
-
+#用来接收传进来的参数
+print type(argv)
 print "The script is called:", scripts
 print "Your first variable is:", first
 print "Your second variable is:", second

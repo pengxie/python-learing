@@ -1,3 +1,4 @@
+# -*- coding: utf8 -*-
 from sys import argv
 script, filename = argv
 txt = open(filename)  # 打开文件
